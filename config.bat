@@ -1,2 +1,2 @@
-set EMACSDIR=C:\Program Files\Emacs\bin
-set HOME=C:%HOMEPATH%
+set EMACSDIR=C:\emacs\bin
+set HOME=C:\Users\tebbsd
