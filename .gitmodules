@@ -4,3 +4,6 @@
 [submodule "editorconfig-core-c"]
 	path = editorconfig-core-c
 	url = https://github.com/editorconfig/editorconfig-core-c.git
+[submodule "omnisharp-server"]
+	path = omnisharp-server
+	url = https://github.com/OmniSharp/omnisharp-roslyn.git
