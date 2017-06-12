@@ -2,7 +2,7 @@
 * SETUP
   1. Install emacs
   2. 'git submodule update --init --recursive'
-  3. Build omnisharp-roslyn/OmniSharp.sln in Release config
+  3. Build omnisharp-roslyn/OmniSharp.sln in Release/x86 config
   4. Set values in config.bat
   5. Setup VisualStudio
      - Add a menu entry
