@@ -7,9 +7,20 @@
 # LCTRL: 1d
 # CAPS: 3a
 # L ALT: 0x38
-# R ALT: 0x38
-#
+# R ALT: (0xe0) 0x38
+# L WIN: 0xe0 0x5b
+# R WIN: 0xe0 0x5c
 
+# https://geekhack.org/index.php?topic=22341.0
+# [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+# 00,00,00,00,
+# 00,00,00,00,
+# 05,00,00,00,
+# 1d,00,3a,00, -- CAPS -> L CTRL
+# 5b,e0,38,00, -- L WIN -> L ALT
+# 38,00,5b,e0, -- L ALT -> L WIN
+# 5d,e0,38,e0, -- MENU -> R ALT
+# 00,00,00,00
 
 #
 #
