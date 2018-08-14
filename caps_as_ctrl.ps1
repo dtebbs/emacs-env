@@ -22,8 +22,7 @@
 # 5d,e0,38,e0, -- MENU -> R ALT
 # 00,00,00,00
 
-#
-#
 $hexified = "00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00".Split(',') | % { "0x$_"};
+# $hexified = "00,00,00,00,00,00,00,00,05,00,00,00,1d,00,3a,00,5b,e0,38,00,38,00,5b,e0,5d,e0,38,e0,00,00,00,00".Split(',') | % { "0x$_"};
 $kbLayout = 'HKLM:\System\CurrentControlSet\Control\Keyboard Layout';
 New-ItemProperty -Path $kbLayout -Name "Scancode Map" -PropertyType Binary -Value ([byte[]]$hexified);

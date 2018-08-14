@@ -3,7 +3,9 @@
   1. Install emacs
   2. Install p4 visual tools (perforce/p4vinst64.exe)
   3. 'git submodule update --init --recursive'
-  4. Build omnisharp-roslyn/OmniSharp.sln in Release/x86 config
+  4. Build omnisharp-roslyn:
+     * `cd omnisharp-roslyn`
+     * `powershell -executionPolicy bypass -command .\\build.ps1 -configuration Release -target Quick`
   5. Set values in config.bat
   6. Setup VisualStudio
      - Add a menu entry
