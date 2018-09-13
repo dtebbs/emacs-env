@@ -23,5 +23,16 @@
        2. Enter: "Tools.ExternalCommand1"
        3. Add Shortcut (e.g. Alt-O) in the "Shortcuts ..." dialog
        4. "Use new shortcut in:" -> "Global"
+       5. Repeat for shortcuts:
+          1. "TestExplorer.RunSelectedTests" -> CTRL + Shift + R
+          2. "TestExplorer.DebugSelectedTests" -> CTRL + Shift + T
+          3. "TestExplorer.RunAllTests" -> CTRL + Shift + A
+     - 80 Char Guide Line
+       1. Install "Editor Guideline" extension
+          - https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelines
+       2. Tools -> Options -> Environment -> Fonts and Colors -> Guideline
+          - Choose color (Yellow)
+       3. View -> Other Windows -> Command Window
+          - > Edit.AddGuildeline 80
   7. CAPS LOCK as CTRL:
      powershell -executionPolicy bypass -file "C:\Users\dtebbs\emcas-env\caps_as_ctrl.ps1"
